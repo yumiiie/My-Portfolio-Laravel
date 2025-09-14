@@ -1,0 +1,57 @@
+# Assets Directory
+
+This directory should contain the following files:
+
+## Required Images:
+
+### Profile Picture
+- **profile.jpg** - Your professional photo (300x300px, square format recommended)
+- Format: JPG, PNG, or WebP
+- Size: Optimize for web (under 200KB)
+
+### Project Screenshots
+- **project1.jpg** - E-Commerce Website screenshot
+- **project2.jpg** - Task Management App screenshot  
+- **project3.jpg** - Weather Dashboard screenshot
+- **project4.jpg** - Mobile Banking App screenshot
+- Format: JPG, PNG, or WebP
+- Size: 400x300px recommended, optimize for web
+
+### Certificates
+- **cert1.jpg** - AWS Cloud Practitioner certificate
+- **cert2.jpg** - Google Data Analytics certificate
+- **cert3.jpg** - Microsoft Azure Fundamentals certificate
+- **cert4.jpg** - Cisco CCNA certificate
+- Format: JPG, PNG, or WebP
+- Size: 400x300px recommended
+
+### Resume
+- **resume.pdf** - Your resume in PDF format
+- Size: Optimize for web (under 2MB)
+
+## Image Optimization Tips:
+
+1. **Use WebP format** for better compression
+2. **Compress images** using tools like:
+   - TinyPNG (https://tinypng.com/)
+   - ImageOptim (Mac)
+   - GIMP (Free)
+   - Photoshop
+
+3. **Responsive images**: Consider creating multiple sizes for different screen resolutions
+
+4. **Alt text**: All images should have descriptive alt text for accessibility
+
+## Placeholder Images:
+
+If you don't have images ready, you can use placeholder services:
+- https://picsum.photos/300/300 (for profile)
+- https://picsum.photos/400/300 (for projects/certificates)
+- https://via.placeholder.com/300x300 (customizable placeholders)
+
+## File Naming Convention:
+
+- Use lowercase letters
+- Use hyphens instead of spaces
+- Be descriptive but concise
+- Example: "ecommerce-website-screenshot.jpg"
