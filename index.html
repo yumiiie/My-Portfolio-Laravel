@@ -463,7 +463,7 @@
                     <div class="resume-preview">
                         <i class="fas fa-file-pdf"></i>
                     </div>
-                    <a href="assets/resume.pdf" class="btn btn-primary" download>
+                    <a href="assets/aquino_resume.pdf" class="btn btn-primary" download>
                         <i class="fas fa-download"></i>
                         Download Resume
                     </a>
@@ -523,10 +523,11 @@
                         </a>
                     </div>
                 </div>
-                <form class="contact-form" name="contact" method="POST" netlify netlify-honeypot="bot-field">
-                    <div style="display: none;">
+                <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact" />
+                    <p style="display:none">
                         <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-                    </div>
+                    </p>
                     <div class="form-group">
                         <input type="text" id="name" name="name" required>
                         <label for="name">Your Name</label>
@@ -566,6 +567,14 @@
             </div>
         </div>
     </footer>
+
+    <!-- Hidden form for Netlify form detection (required for static site generation) -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <input type="text" name="subject" />
+        <textarea name="message"></textarea>
+    </form>
 
     <!-- Scripts -->
     <script src="js/script.js"></script>
